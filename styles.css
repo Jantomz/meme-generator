@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(24, 24, 24);
+  color: rgb(255, 212, 184);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+}
+
+button {
+  background-color: rgb(24, 24, 24);
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  display: list-item;
+  margin: 10px;
+  margin-top: 30px;
+  width: 300px;
+  height: 50px;
+  list-style-type: none;
+  font-size: medium;
+}
+
+.side-bar {
+  text-align: right;
+  position: absolute;
+  right: 100;
+  width: 400px;
+  height: 600px;
+  border-width: 10px;
+  border-color: rgb(190, 190, 190);
+}
+
+.display-container {
+  margin-left: 20px;
+  width: 800px;
+}
+
+.actions-h2 {
+  text-align: left;
+  margin: 10px;
+}
+
+.special-btn {
+  border: none;
+}
+
+.special-btn:active {
+  color: white;
+  background-color: rgb(37, 37, 37);
+}
